@@ -484,17 +484,12 @@ button {
 }
 
 @media (max-width: 575.98px) {
-  /* CSS for extra small devices */
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
-  /* CSS for small devices */
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
-  /* CSS for medium devices */
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
-  /* CSS for large devices */
 }
 @media (min-width: 1200px) {
-  /* CSS for ultra-wide devices */
 }
