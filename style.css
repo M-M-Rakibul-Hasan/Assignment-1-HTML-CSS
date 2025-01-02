@@ -356,6 +356,7 @@ button {
   font-weight: 700;
   font-size: 18px;
   background-color: transparent;
+  width: max-content;
 }
 
 /* Contact Us Section */
