@@ -1,13 +1,22 @@
 @media (min-width: 0px) and (max-width: 575.98px) {
+  /* Nav  */
   .navbar {
     padding: 1rem 2rem;
   }
   .nav-links {
-    font-size: 12px;
+    font-size: 11px;
+  }
+  .menu {
+    gap: 0rem;
+  }
+  .menu a {
+    padding: 0.3rem;
   }
   .register-button {
     padding: 0.3rem 0.5rem;
-    font-size: 0.8rem;
+    font-size: 11px;
+    width: max-content;
+    border: none;
   }
   /* Banner */
   .banner {
