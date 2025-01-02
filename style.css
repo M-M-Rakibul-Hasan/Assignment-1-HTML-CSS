@@ -473,6 +473,7 @@ button {
 }
 
 .footer > .copyright {
+  order: 1;
   display: flex;
   flex-direction: column;
   align-items: start;
@@ -511,6 +512,7 @@ button {
   color: #343e4f;
 }
 .footer > .links {
+  order: 2;
   display: flex;
   align-items: start;
   justify-content: center;
@@ -532,6 +534,7 @@ button {
   gap: 5px;
 }
 .footer > .sub {
+  order: 3;
   display: flex;
   flex-direction: column;
   align-items: start;

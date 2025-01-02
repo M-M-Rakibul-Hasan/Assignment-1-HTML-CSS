@@ -104,6 +104,24 @@
   .contact-image {
     width: 80%;
   }
+  /* Footer */
+  .footer {
+    padding: 1rem 2rem;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 1rem;
+  }
+
+  .footer > .copyright {
+    order: 3;
+    align-items: center;
+  }
+  .footer > .links {
+    order: 2;
+  }
+  .footer > .sub {
+    order: 1;
+    align-items: center;
+  }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
   /* Nav  */
