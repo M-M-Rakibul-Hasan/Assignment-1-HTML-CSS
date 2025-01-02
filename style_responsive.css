@@ -106,6 +106,111 @@
   }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
+  /* Nav  */
+  .navbar {
+    padding: 1rem 2rem;
+  }
+  .nav-links {
+    font-size: 11px;
+  }
+  .menu {
+    gap: 0rem;
+  }
+  .menu a {
+    padding: 0.3rem;
+  }
+  .register-button {
+    padding: 0.3rem 0.5rem;
+    font-size: 11px;
+    width: max-content;
+    border: none;
+  }
+  /* Banner */
+  .banner {
+    flex-direction: column-reverse;
+    padding: 1rem 2rem;
+    gap: 1rem;
+  }
+  .banner-text {
+    max-width: 90%;
+    text-align: center;
+  }
+  /* Clients  */
+  .clients {
+    padding: 2rem;
+  }
+  .client-logos {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+  }
+  /* Power */
+  .blockchain {
+    padding: 2rem 0rem;
+  }
+  .blockchain-cards {
+    gap: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  .card {
+    padding: 2rem;
+  }
+  /* Help */
+  .help {
+    padding: 2rem;
+    gap: 1rem;
+    margin-top: 1rem;
+    flex-direction: column;
+  }
+  .help > .left {
+    width: 90%;
+  }
+  .help > .right {
+    width: 90%;
+  }
+  .help > .left h2 {
+    text-align: center;
+  }
+  .help > .left p {
+    text-align: center;
+  }
+  /* Future */
+  .future {
+    padding: 2rem;
+  }
+  .future > .header p {
+    width: 100%;
+  }
+  .future > .content {
+    margin: 1rem 0;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+    row-gap: 5rem;
+  }
+  .future > .content > .f_card > .f_content {
+    padding: 0.5rem;
+    width: 90%;
+  }
+  /* Contact */
+  .contact {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .contact-content {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    gap: 2.5rem;
+    flex-direction: column;
+  }
+  .contact-form {
+    width: 80%;
+  }
+  .contact-form form {
+    margin-top: 0rem;
+  }
+  .contact-image {
+    width: 80%;
+  }
 }
 /* @media (min-width: 768px) and (max-width: 991.98px) {
 }
