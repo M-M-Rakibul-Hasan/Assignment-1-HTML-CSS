@@ -1,0 +1,36 @@
+@media (min-width: 0px) and (max-width: 575.98px) {
+  .navbar {
+    padding: 1rem 1rem;
+  }
+  .nav-links {
+    font-size: 12px;
+  }
+  .register-button {
+    padding: 0.3rem 0.5rem;
+    font-size: 0.8rem;
+  }
+  /* Banner */
+  .banner {
+    flex-direction: column-reverse;
+    padding: 1rem;
+    gap: 1rem;
+  }
+  .banner-text {
+    max-width: 90%;
+    text-align: center;
+  }
+  /* Clients  */
+  .clients {
+    padding: 2rem 1rem;
+  }
+  .client-logos {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}

@@ -8,6 +8,10 @@ body {
   line-height: 1.5;
 }
 
+.hide {
+  display: none !important;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -64,6 +68,7 @@ button {
 /* Banner Section */
 .banner {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   gap: 2rem;
@@ -129,10 +134,9 @@ button {
 }
 
 .client-logos {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  place-items: center;
   margin-top: 1rem;
 }
 
@@ -481,15 +485,4 @@ button {
 
 .social-links a:hover {
   color: #34d399; /* Tailwind's text-green-400 */
-}
-
-@media (max-width: 575.98px) {
-}
-@media (min-width: 576px) and (max-width: 767.98px) {
-}
-@media (min-width: 768px) and (max-width: 991.98px) {
-}
-@media (min-width: 992px) and (max-width: 1199.98px) {
-}
-@media (min-width: 1200px) {
 }
