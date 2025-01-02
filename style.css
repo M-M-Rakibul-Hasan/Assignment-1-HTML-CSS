@@ -463,35 +463,104 @@ button {
 
 /* Footer Section */
 .footer {
-  background-color: #1a202c; /* Tailwind's bg-gray-900 */
-  color: white;
-  padding: 2rem 1rem;
+  background-color: #1e293b; /* Tailwind's bg-gray-900 */
+  color: #bfc3ca;
+  padding: 5rem 7rem;
   text-align: center;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 4rem;
 }
 
-.footer-content {
+.footer > .copyright {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: start;
   gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
-
-.footer-logo {
-  font-size: 1.5rem;
-  font-weight: 700;
+.footer > .copyright > img {
+  height: 70px;
+  width: 70px;
 }
-.footer .logo {
-  height: 100px;
-  width: 100px;
+.footer > .copyright > p {
+  font-size: 0.8rem;
+  text-align: left;
+}
+.footer > .copyright > .social-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.footer > .copyright > .social-icons > a {
+  background-color: #343e4f;
+  border-radius: 50%;
+  padding: 0.5rem;
   aspect-ratio: 1/1;
+  height: 20px;
+  width: 20px;
+  color: #fff;
+  transition-duration: 300ms;
+  cursor: pointer;
 }
-
-.social-links a {
+.footer > .copyright > .social-icons > a:hover {
+  background-color: #fff;
+  color: #343e4f;
+}
+.footer > .links {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 4rem;
+}
+.footer > .links > .content > h1 {
   color: white;
-  margin: 0 0.5rem;
-  transition: color 0.2s;
+  font-size: large;
+  font-weight: bold;
+  text-align: left;
 }
-
-.social-links a:hover {
-  color: #34d399; /* Tailwind's text-green-400 */
+.footer > .links > .content > .link {
+  color: #bfc3ca;
+  font-size: medium;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 5px;
+}
+.footer > .sub {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.footer > .sub > h1 {
+  color: white;
+  font-size: large;
+  font-weight: bold;
+  text-align: left;
+}
+.footer > .sub > .field {
+  position: relative;
+}
+.footer > .sub > .field i {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+  cursor: pointer;
+}
+.footer > .sub input {
+  color: white;
+  padding: 0.8rem 1rem;
+  background-color: #4b5462;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  width: 250px;
+}
+.footer > .sub input::placeholder {
+  color: #bfc3ca;
 }
